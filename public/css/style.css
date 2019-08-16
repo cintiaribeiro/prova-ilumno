@@ -1,0 +1,88 @@
+html, body{
+    position: relative;
+    height: 100%;
+    color:#808080;
+}
+p{
+    margin-bottom: 0;
+}
+a:link, 
+a:visited, 
+a:hover,
+a:active{
+    color:#5faadb;
+}
+.color-text-primary{
+    color:#5faadb;
+    font-size: 18px;
+    font-weight: 600;
+}
+.color-text-second{
+    font-weight: 600;
+}
+.btn-submit{
+    background: #bbd550;
+    color: #ffffff;
+    box-shadow: 1px 2px #aecd31,  -1px 2px #aecd31;
+}
+.fundo{
+    margin-top:8%;
+    height: 40%;
+    background-color: #5faadb;
+}
+#conteudo{
+    position: absolute;
+    width: 100%;
+    top:18%;
+}
+.card .header{
+    padding: 15px 0;
+}
+.card .card-body form{
+    padding: 15px 0;
+}
+.card .recuperar{
+    margin-top:15px;
+    color: #5faadb;
+}
+.card .recuperar a:hover{
+    text-decoration: none;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar{
+        text-align: center;
+    }
+    .fundo{
+        margin-top:10%;
+        height: 50%;
+        background-color: #5faadb;
+    }
+    #conteudo{
+        position: absolute;
+        width: 100%;
+        top:18%;
+    } 
+}
+@media (min-width: 575px) and  (max-width: 767px)  { 
+    .navbar{
+        text-align: center;
+    }
+    #conteudo{
+        position: absolute;
+        width: 100%;
+        top:15%;
+    }
+}
+@media (max-width: 575px){ 
+    .navbar{
+        text-align: center;
+    }
+    #conteudo{
+        position: absolute;
+        width: 100%;
+        top:26%;
+    }
+    .btn{
+        margin-top:20px
+    }
+}
